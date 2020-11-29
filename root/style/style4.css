@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+	background-color: #FFF6C2;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: "Public Sans", Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #540B0E;
+	font-size: 1em;
+}
+
+#menu{
+	display: flex;
+	position: fixed;
+	width: 100%;
+	height: 5%;
+	background: #BC6C25;
+	bottom: 0;
+	z-index: 5;
+	font-size: 1em;
+}
+
+#b1, #b2, #b3, #b4, #b5{
+	margin: auto;
+}
+
+main{
+	margin-bottom: 30px;
+}
+
+.cabeca{
+	width: 100%;
+  height: 20%;
+  font-size: 1.5em;
+	border-bottom: 2px solid #9E2A2B;
+	text-align: center;
+}
+
+.cabeca2{
+	width: 100%;
+  height: 20%;
+  font-size: 1.5em;
+	border-bottom: 2px solid #9E2A2B;
+	text-align: center;
+}
+
+h1 {
+    padding: 0.5em;
+}
+
+	#newquest{
+		display: none;
+	}
+
+	.questprefab{
+		display: block;
+		padding: 1em;
+		margin-bottom: 0.2em;
+		border-bottom: beige;
+		border-style: solid;
+	}
+
+	.another{
+		display: block;
+		padding: 1em;
+		margin-bottom: 0.2em;
+	}
+
+	.edits{
+		    right: 0.5em;
+		    position: fixed;
+	}
+	.title{
+		font-size: 1.2em;
+		margin-bottom: 0.5em;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.dsc{
+		font-size: 1em;
+		margin-bottom: 0.3em;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		text-transform: lowercase;
+	}
+
+	.selectors{
+		font-size: 0.8em;
+		display: flex;
+	}
+
+	.dd, .mq{
+		margin-right: 0.4em;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		text-transform: lowercase;
+	}
+
+	#existentes{
+		background-color: red; */
+    border-bottom: 2px, solid, red;
+    width: 100%;
+    height: 20%;
+    text-align: left;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    margin: 8px 0;
+    background: none;
+    border-bottom: 2px solid #9E2A2B;
+    box-sizing: border-box;
+		}
+	}
+
+.activequests{
+	overflow: scroll;
+}
+
+#form{
+text-align: left;
+width: 80%;
+margin: auto;
+height: 100%;
+margin-top: 50%;
+}
+
+
+input[type="text" i] {
+	width: 100%;
+	height: 2em;
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+	margin: 8px 0;
+	border: none;
+	background: none;
+	border-bottom: 2px solid #9E2A2B;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #9E2A2B;
+    border: none;
+    padding: 0.4em;
+    margin-top: 0.5em;
+    width: 100%;
+    height: 2.5em;
+    color: #FFF6C2;
+}
+
+#points{
+	width: 100%;
+	height: 2em;
+	padding-top: 0.5em;
+	padding-right: 0.5em;
+	margin: 8px 0;
+	border: none;
+	background: none;
+	border-bottom: 2px solid #9E2A2B;
+	box-sizing: border-box;
+}
+
+input[type="checkbox" i] {
+		background: green;
+    border: none;
+    width: 2em;
+    margin: auto;
+    justify-content: center;
+    margin-right: 8px;
+    align-content: center;
+    height: 2em;
+    display: block;
+	}
+	
+#delete{
+	display: none;
+}
+#popup{
+	display: none;
+}
+.popup {
+	color: #FFF6C2;
+	background-color: #9E2A2B;
+	z-index: 5;
+	width: 100%;
+	top: 0;
+	font-size: 1.8em;
+	position: absolute;
+}
+
+.pop{
+	padding: 1.5em;
+}

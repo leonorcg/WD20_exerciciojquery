@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style4.css">
+  </head>
+  <body>
+    <header>
+      <div id="menu">
+        <div id="b1">quests</div>
+        <div id="b2">beaten</div>
+        <div id="b3">newq</div>
+        <div id="b4">main</div>
+        <div id="b5">options</div>
+      </div>
+    </header>
+    <main>
+      <div id="activequests">
+        <div class="cabeca">
+          <h1>Active Quests</h1>
+        </div>
+        <div id="popup" class="popup">
+          <div id="pop" class="pop">
+            <p>New quest added!</p>
+          </div>
+        </div>
+        <div id="questprefab" class="questprefab">
+          <div id="edits" class="edits"><input id="checc" type="checkbox"></div>
+          <div id="title" class="title"><p>Vai comprar arroz</p></div>
+          <div id="dsc" class="dsc"><p>No jumbo até dia 4 de abril estão com desconto! Compra também para a avó</p></div>
+          <div id="selectors" class="selectors">
+            <div id="dd" class="dd">Priority</div>
+            <div id="mq" class="mq">High</div>
+        </div>
+        </div>
+        <div class="another" id="another">This list is looking a little empty, why not add a new task?</div>
+    </div>
+    <div id="newquest">
+      <div class="cabeca2">
+        <h1>New Quest</h1>
+      </div>
+      <form id="form">
+        <input type="text" name="quest" id="quest" placeholder="Quests name">
+        <input type="text" name="questdsc" id="questdsc" placeholder="Quests description">
+        <select required  id="points">
+            <option id="1" value="Low">Low</option>
+            <option id="2" value="Medium">Medium</option>
+            <option id="3" value="High">High</option> </select>
+        <input type="submit" id="addnew" value="Create">
+      </form>
+    </div>
+    <div id="delete" class="popup">
+      <div id="poo" class="pop">
+        <p>Quest completed!</p>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script-quests.js"></script>
+    <script src="script/script-buttons.js"></script>
+  </body>
+</html>
